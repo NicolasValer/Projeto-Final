@@ -22,25 +22,65 @@ body, html{
   }
   header {
     background-color:#b2b3db;
-    padding: 20px;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    height: 15vh;
-    
+    height: 20vh;
+    margin: 0;
+    padding: 20px;
+    gap: 20px; 
   }
+  header #text1{
+    text-align: center;
+  }
+
   nav {
     background-color: #ececf6;
-    padding: 20px;
+    padding: 30px;
     width: 80vw;
     
   }
   main {
-    background-color:#ececf6;
+    display: flex;
     padding: 20px;
-    width: 80vw;
-    height: 70vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto-;
+    grid-gap: 20px 10px;
+    flex-direction: column;  
   }
+  main #caixa1{
+    background-color:#ececf6;
+    height: 33vh;
+    width: 80vw;
+    padding: 20px;
+    
+  }
+  main #caixa2{
+    background-color:#ececf6;
+    height: 33vh;
+    width: 80vw;
+    padding: 20px;
+  }
+
+  main #caixa3 #formacao{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto-;
+    gap: 10px;
+    height: 33vh;
+    width: 80vw;
+  }
+
+  main #caixa3{
+    background-color:#ececf6;
+    height: 33vh;
+    width: 80vw;
+    padding: 20px;
+  }
+  main #caixa3 h3{
+    text-align: center;
+  }
+  
   footer {
     display: flex;
     background-color:#b2b3db;
@@ -54,14 +94,8 @@ body, html{
     color: black;
   }
 
-  #caixa1{
-    background-color:#ececf6;
-    padding: 20px;
-    width: 80vw;
-    height: 70vh;
-  }
-
-  header .imagem1{
-    justify-content: flex-end;
+  footer ul li a{
+    font-display: none;
+    color: black;
   }
 
