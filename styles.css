@@ -32,6 +32,13 @@ body, html{
   header #text1{
     text-align: center;
   }
+  header img{ 
+    border-radius:50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    animation: float 3s ease-in-out infinite;
+  }
 
   nav {
     background-color: #ececf6;
