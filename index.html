@@ -3,115 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portifólio</title>
+    <title>Portfólio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.1/css/all.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <header id="home">
-        <img src="https://avatars.githubusercontent.com/u/136026852?s=400&u=6ca48324224cbff268d4014fb11bbc77c63c6c12&v=4" width="200" alt="minha foto">
-        <section id="text1"><h1>Nicolas Patan Valer</h1>
-            <p> olá meu nome é nicolas e esse é meu portifólio</p>
+        <img src="https://avatars.githubusercontent.com/u/136026852?s=400&u=6ca48324224cbff268d4014fb11bbc77c63c6c12&v=4" width="200" alt="Minha Foto">
+        <section id="text1">
+            <h1>Nicolas Patan Valer</h1>
+            <p>Olá, meu nome é Nicolas e esse é meu portfólio.</p>
         </section>
     </header>
 
     <div class="conteiner">
-    <nav>
-    <h3>destaques</h3>
-        <ul>
-            <li>
-                <a href="#caixa1">sobre mim</a>
-            </li>
-            <li>
-                <a href="#caixa2">projetos</a>
-            </li>
-            <li>
-                <a href="#caixa3">Formação</a>
-            </li>
-            <li>
-                <a href="#contatos">contatos</a>
-            </li>
-        </ul>
-    </nav>
-    <main>
-        <section id="caixa1">
-            <h3>Sobre Mim</h3>
-            <p> Bom para começar meu nome é Nicolas Patan Valer, nasci em São Leopoldo e é onde eu moro até hoje, tenho 17 anos faço aniversario no dia 25 de julho. <br> Estou estudando programação pelo SenacRs e pretendo trabalhar como programador no futuro além de procurar sempre evoluir</p>   
-        </section>
-        <section id="caixa2">
-            <h3>projetos</h3>
-        </section>
-            
-        <section id="caixa3">
-            <h3>Formação</h3>
-            <section id="formacao"
-            >
-                <div>
-                    <h1>BackEnd</h1>
-                    <p>2024-2024 | 90 HORAS <br> Senac-rs</p>
-                </div>
-                <div>
-                    <h1>FrontEnd</h1>
-                    <p>2024-2024 | 90 HORAS <br> Senac-rs</p></div>
-                <div>
-                    <h1>JavaScript-introdução</h1>
-                    <p>2024-2024 | 70 HORAS <br> Senac-rs</p>
-                </div>
-                <div>
-                    <h1>Soft-Skills</h1>
-                    <p>2024-2024 | 20 HORAS <br> Senac-rs</p>
-                </div>
+        <nav>
+            <h3>Destaques</h3>
+            <ul>
+                <li><a href="#abrirCaixa1">Sobre Mim</a></li>
+                <li><a href="#abrirCaixa2">Projetos</a></li>
+                <li><a href="#abrirCaixa3">Formação</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <button id="abrirCaixa1">Abrir sobre Mim</button>
+            <section id="caixa1" class="fecharSection">
+                <h3>Sobre Mim</h3>
+                <p>
+                    Meu nome é Nicolas Patan Valer, nasci em São Leopoldo e moro aqui até hoje. Tenho 17 anos e faço aniversário no dia 25 de julho. 
+                    Estou estudando programação pelo SenacRS e pretendo trabalhar como programador no futuro, buscando sempre evoluir.
+                </p>
             </section>
-        </section>
-        </section>
 
-    </main>
+            <button id="abrirCaixa2">Abrir meus projetos</button>
+            <section id="caixa2" class="fecharSection">
+                <h3>Meus Projetos</h3>
+                <p>Em breve mais detalhes sobre os projetos desenvolvidos.</p>
+            </section>
 
-    <footer id="contatos">
-        <h3>&copy;Nicolas Patan Valer</h3>
-        <ul>
-            <li>
-                <a href="tel:+5551990062025">
-                    <span class="fa-brands fa-whatsapp"></span>
-                    <span>+55 51 99006 2025</span>
-                </a>
-            </li>
-            <li>
-                <a>
-                    <span class="fa-solid fa-envelope"></span>
-                    <span>nicolas.p.valer@gmail.com</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/NicolasValer">
-                    <span class="fa-brands fa-github"></span>
-                    <span>gitHub</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/_nicollas.kkj/profilecard/?igsh=cjRiMjhjbXAya3U3">
-                    <span class="fa-brands fa-instagram"></span>
-                    <span>Instagram</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/nicolas-patan-valer-132b76306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
-                    <span class="fa-brands fa-linkedin"></span>
-                    <span>Linkdin</span>
-                </a>
-            </li>
-            <li><a href="#home">
-                    <span class="fa fa-home"></span>
-                    <span>inicio</span>
-                </a>
-            </li>
-        </ul>
-    </footer>
+            <button id="abrirCaixa3">Abrir Formação</button>
+            <section id="caixa3" class="fecharSection">
+                <h3>Formação</h3>
+                <section id="formacao"
+                >
+                    <div>
+                        <h1>BackEnd</h1>
+                        <p>2024-2024 | 90 HORAS <br> Senac-rs</p>
+                    </div>
+                    <div>
+                        <h1>FrontEnd</h1>
+                        <p>2024-2024 | 90 HORAS <br> Senac-rs</p></div>
+                    <div>
+                        <h1>JavaScript-introdução</h1>
+                        <p>2024-2024 | 70 HORAS <br> Senac-rs</p>
+                    </div>
+                    <div>
+                        <h1>Soft-Skills</h1>
+                        <p>2024-2024 | 20 HORAS <br> Senac-rs</p>
+                    </div>
+                </section>
+            </section>
+
+            <a href="elementos/NICOLAS PATAN VALER.pdf" download="NICOLAS PATAN VALER.pdf">
+                <button>Baixar PDF</button>
+            </a>
+            
+            </section>
+        </main>
     </div>
-    
-    
+
+        <footer id="contatos">
+            <h3>&copy; Nicolas Patan Valer</h3>
+            <ul>
+                <li>
+                    <a href="tel:+5551990062025">
+                        <span class="fa-brands fa-whatsapp"></span>
+                        <span>+55 51 99006 2025</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="fa-solid fa-envelope"></span>
+                        <span>nicolas.p.valer@gmail.com</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/NicolasValer">
+                        <span class="fa-brands fa-github"></span>
+                        <span>GitHub</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/_nicollas.kkj/profilecard/?igsh=cjRiMjhjbXAya3U3">
+                        <span class="fa-brands fa-instagram"></span>
+                        <span>Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/nicolas-patan-valer-132b76306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                        <span class="fa-brands fa-linkedin"></span>
+                        <span>LinkedIn</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#home">
+                        <span class="fa fa-home"></span>
+                        <span>Início</span>
+                    </a>
+                </li>
+            </ul>
+        </footer>
 </body>
 </html>
-
-

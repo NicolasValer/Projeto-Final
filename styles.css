@@ -8,6 +8,8 @@ body, html{
     width: 100%;
     height: 100%;
     background-color:#d9d9ed;
+    display: flex;
+    flex-direction: column;
     
 }
 .conteiner {
@@ -94,6 +96,7 @@ body, html{
     padding: 50px;
     width: 100vw;
     flex-direction: column;
+    margin-top: auto;
   }
 
   nav li a {
@@ -104,5 +107,26 @@ body, html{
   footer ul li a{
     font-display: none;
     color: black;
+  }
+
+  .fecharSection {
+    display: none;
+  }
+  
+  main button {
+    display: flex;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color:#b2b3db;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    color: black  ;
+    justify-content: center;
+  }
+  
+  button:hover {
+    background-color: #dad6e8;
   }
 
